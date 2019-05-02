@@ -73,7 +73,7 @@ When opening the `Attributes Table`, you will notice that there is information o
 
 First, we are going to prepare the NY Events database. We will only look at recent events, that is, events 2015 and on. However, the dates are written in an uncomfortable format (MM/DD/YYYY), because it is actually detected as a `String`. We are going to turn this into a boolean that will tell us whether an event is recent (value of 1) or not (value of 0). We will use this useful conditional formula in the `Field Calculator`:
 
-If ( "8/31/2017"  LIKE '%2017' or "8/31/2017"  LIKE '%2016' or"8/31/2017"  LIKE '%2015', 1, 0)
+If ( "DATE"  LIKE '%2017' or "DATE"  LIKE '%2016' or"DATE"  LIKE '%2015', 1, 0)
 
 What this formula does is look at all the values of Event Date, and if they contain 2017, 2016 or 2015, it will give the new field being created a value of 1, otherwise the value will be 0.
 
