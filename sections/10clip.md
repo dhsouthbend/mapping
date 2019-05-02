@@ -16,6 +16,6 @@ Now we are ready to do some operations. We will use the `Vector Geoprocessing To
 
 If you toggle the Blocks layer visibility off, you will notice that the Blocks Study Area layer looks like a copy of Blocks, limited to the square of the study area. If you look at the `Attribute table` of the Blocks Study Area layer, you will notice that it has all the same attributes than the original Blocks layer, only that the features that were outside of the study area were deleted, which is just what we wanted. Now we can permanently turn off the visibility of Blocks and of Study Area (clicking on the `X` to the left of the layer names), and our work should now look like this:
 
-![Resulting Layer after Clipping](images/clip1.png)
+![Resulting Layer after Clipping](images/clip2.png)
 
 [<<< Previous](9polydrw.md)  | [Next >>>](11buffer.md)  
