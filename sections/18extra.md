@@ -63,7 +63,9 @@ In order to use the Housing data, we have to join it to our working dataset, tha
 
 ## Adding a CSV file with Geometry
 
-Now let's add the Ready NY Events CSV file. The process will be similar than adding the last CSV, but this time, make sure that `Geometry definition` is set to `Point coordinates`, and that `Latitude` and `Longitude` are being extracted from the appropriate fields. When you click `Accept`, you will likely see a warining saying that CRS was not specified so it chooses a default one. You can right-click on the layer to select the correct projection (EPSG:4269). 
+Now let's add the Ready NY Events CSV file. The process will be similar than adding the last CSV, but this time, make sure that `Geometry definition` is set to `Point coordinates`, and that `Latitude` and `Longitude` are being extracted from the appropriate fields. Longitude is X, whereas Latitude is Y. 
+
+When you click `Accept`, you will likely see a warining saying that CRS was not specified so it chooses a default one. You can right-click on the layer to select the correct projection (EPSG:4269). 
 
 When opening the `Attributes Table`, you will notice that there is information on the date of the events, and the names of the events. Events may vary considerably, as some are open to the public (for example, Citizen Preparedness Training), while others seem to be targeted at specific or exclusive audiences (Annual CLIP Teacher Conference, ABC/Disney General Presentation). Do these events occur in the most vulnerable areas? The following exercise will let us find out and practice our QGIS skills.
 
@@ -71,15 +73,9 @@ When opening the `Attributes Table`, you will notice that there is information o
 
 First, we are going to prepare the NY Events database. We will only look at recent events, that is, events 2015 and on. However, the dates are written in an uncomfortable format (MM/DD/YYYY), because it is actually detected as a `String`. We are going to turn this into a boolean that will tell us whether an event is recent (value of 1) or not (value of 0). We will use this useful conditional formula in the `Field Calculator`:
 
-```Python
-CASE
-WHEN  "Event Date"  LIKE '%2017' THEN 1
-WHEN  "Event Date"  LIKE '%2016' THEN 1
-WHEN  "Event Date"  LIKE '%2015' THEN 1
-ELSE 0
-END
-```
-What this formula does is look at all the values of Event Date, and if they end in 2017, 2016 or 2015, it will give the new field being created a value of 1, otherwise the value will be 0.
+If ( "8/31/2017"  LIKE '%2017' or "8/31/2017"  LIKE '%2016' or"8/31/2017"  LIKE '%2015', 1, 0)
+
+What this formula does is look at all the values of Event Date, and if they contain 2017, 2016 or 2015, it will give the new field being created a value of 1, otherwise the value will be 0.
 
 We could even delete older events because they would not be helpful for this particular question.
 
