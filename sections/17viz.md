@@ -25,6 +25,7 @@ The Classes box shows the different category boxes that will be used to display 
 
 ![Result of clicking Classify in Symbology Tab](images/classify.png)
 
+* If you want a different number of categories or different cutpoints, you can indicate so in the settings towards the bottom of the window under "Mode" and "Classes"
 * You can change the `Legend` by clicking on each class, to make a friendlier name. For example, 0.0000 - 20.0000 could be changed to 0-20%, and so on. 
 
 * Clicking on `Apply` will show the visualization on the map:
@@ -33,7 +34,7 @@ The Classes box shows the different category boxes that will be used to display 
 
 We can create similar visualizations to show colors for percentage of hispanics and percentage of people aged 65 and up. A way to do this is to duplicate the Vulnerable Area layer, then change the symbology for the duplicate. 
 
-Changing the colors also help to distinguish the visualizations when you alternate between them. Sometimes equal intervals won't show an interesting distribution, so you can try changing it for other types to see if something in your data catches your eye. For example, "Natural Breaks (Jenks)" can be a helpful visualization when you want to emphasize variability between classes, so this one could be helpful for example in visualizing Age 65 & Up, as the porcentual range is much lower than the one of Hispanics or Black population. 
+Changing the colors also help to distinguish the visualizations when you alternate between them. Sometimes equal intervals won't show an interesting distribution, so you can try changing it for other types to see if something in your data catches your eye. For example, "Natural Breaks (Jenks)" can be a helpful visualization when you want to emphasize variability between classes, so this one could be helpful for example in visualizing Age 65 & Up, as the percentual range is much lower than the one of Hispanics or Black population. 
 
 Go ahead a duplicate the layer twice and show visualizations for HISPANPCT and AGE65PCT. Make sure to select a different scale of colors, and very importantly, click again on the `Classify` button. Also, make sure to rename the Layers so that you do not forget what is being visualized on each. I chose to rename it using a parentheses, that is, Vulnerable Area (Black pct); Vulnerable Area (Hispanic pct); and Vulnerable Area (Age 65 & up pct).
 
