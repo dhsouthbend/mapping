@@ -10,7 +10,7 @@ Now we are ready to confront the hydrography buffer versus the elevation. To do 
 `Difference` is a function like a geographic substraction: Wherever the two layers meet, the input layer will have substracted whatever trespasses the inner boundaries of the Difference layer.
 
 * Use the Hydro Buffer as the input and the Elevation Polygon as the Difference layer. 
-* Be sure to check the `Ignore invalid input features` so that the operation goes smoothly.
+* Be sure to check the `Ignore invalid input features` so that the operation goes smoothly. If you don't see this option, go to Settings > Options > Processing and under General change to skip features with invalid geometries
 
 ![Geoprocessing Tools: Difference Dialog Box](images/differ1.png)
 
