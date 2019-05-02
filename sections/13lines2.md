@@ -14,6 +14,7 @@ You will get yet a new temporary layer showing solid areas. These areas represen
 But that doesn’t mean we don’t have tedious work at hand. For instance, look at the properties of the new Polygons from lines layer. It adopted the CRS from the raster image, that is, EPSG:26718, NAD27 / UTM Zone 18N. This is not good because if we try to use geoprocessing tools when layers have different CRS, this may bring unexpected results. And as easy as just clicking on the drop-down and choosing the project’s CRS for this layer sounds, this is not the solution, because then unexpected things may happen, like the layer just disappearing. Instead, we need to:
 
 * Right-click on the Polygons from lines layer in the `Layers` Panel.
+* Hover over "export"
 * `Save as…` the Polygons from lines layer.
 * In the `Save as` dialog, choose the proper CRS, that is, the EPSG:4269, NAD83.
 * Let’s call the new layer “Elevation Polygon”.
