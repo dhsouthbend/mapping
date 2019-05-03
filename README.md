@@ -24,9 +24,9 @@ This tutorial will guide you through the very basics of GIS mapping concepts. Th
 [Geoprocessing Tools: Difference](sections/14differ.md)  
 [Using the Field Calculator](sections/15calc.md)  
 [Calculating Percentages with the Field Calculator](sections/16calc2.md)  
-[Changing the Visualization of a Layer](sections/17viz.md)
-[Creating a Layer from Datasets](sections/18datatolayer.md)
-[Additional Layers and Ideas for Analysis](sections/19extra.md)  
+[Changing the Visualization of a Layer](sections/17viz.md)        
+[Creating a Layer from Datasets](sections/18datatolayer.md)       
+[Additional Layers and Ideas for Analysis](sections/19extra.md)         
 [Layout: Making a printable and shareable product with QGIS](sections/20layout.md)  
 [More Resources](sections/21more.md)  
 
