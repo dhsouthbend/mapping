@@ -37,4 +37,4 @@ Changing the colors also help to distinguish the visualizations when you alterna
 
 Go ahead a duplicate the layer twice and show visualizations for HISPANPCT and AGE65PCT. Make sure to select a different scale of colors, and very importantly, click again on the `Classify` button. Also, make sure to rename the Layers so that you do not forget what is being visualized on each. I chose to rename it using a parentheses, that is, Vulnerable Area (Black pct); Vulnerable Area (Hispanic pct); and Vulnerable Area (Age 65 & up pct).
 
-[<<< Previous](16calc2.md)  | [Next >>>](18extra.md)  
+[<<< Previous](16calc2.md)  | [Next >>>](18datatolayer.md)  
