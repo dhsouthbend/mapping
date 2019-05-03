@@ -6,7 +6,7 @@ Databases with no geographic information such as Comma-Separated-Values (CSV) fi
 
 * Let's open the file "housing manhattan 2000.csv", by clicking on the `Add Delimited Text layer` button on the right-side menu (shaped like a comma). If the database has geographic data, such as Latitude and Longitude coordinates, QGIS will identify this and automatically suggest to use these to create a point vector layer. 
 
-![Adding a Comma-Separated-Values (CSV) file to QGIS](sections/images/csv.PNG)
+![Adding a Comma-Separated-Values (CSV) file to QGIS](images/csv.PNG)
 
 * This dataset doesn't have latitude/longitude, so we will have to add it with no geometry, so check the `no geometry` button. Make sure that CSV is selected as the file type, then you should see a preview of the data on the window. Click "Accept".
 
@@ -21,7 +21,7 @@ In order to use the Housing data, we have to join it to our working dataset, tha
 * Select the `Joins` tab.
 * Click on the plus sign `+` button to add a new join.
 
-![Joining data to an existing layer](sections/images/Joins.png)
+![Joining data to an existing layer](images/Joins.png)
 
 * You will need to identify the join field and target field. This refers to the fields in the joining and the joined datasets that are going to be used as a reference for the join, that is, so that QGIS knows to which elements belong the attributes being added. If an attribute of this join field is not found in the joined table, it will be ignored. You can choose which fields are joined, and I suggest checking the last four so that you do not get duplicate fields. 
 
@@ -44,3 +44,6 @@ If ("Event Date"  LIKE '%2017' or "Event Date"  LIKE '%2016' or "Event Date"  LI
 What this formula does is look at all the values of Event Date, and if they end in 2017, 2016 or 2015, it will give the new field being created a value of 1, otherwise the value will be 0.
 
 We could even delete older events because they would not be helpful for this particular question.
+
+[<<< Previous](17viz.md)  | [Next >>>](19extra.md)  
+
