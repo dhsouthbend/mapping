@@ -36,6 +36,8 @@ Vector layers are commonly shared in shapefile format (.SHP). Shapefiles in GIS 
 
 ## Other Types of Layers in QGIS: Raster Layers
 
+![Example Raster Map](images/rasterex.png)
+
 There are other types of layers besides vector layers. The other most common type of layer is the raster layer, which consist of satellite images or maps for reference, aesthetics or additional information, such as grayscales or heatmaps where colors or intensity reflect a varying numerical value. Unlike vector layers, these have a specific resolution that determine how accurate the information is, as well as the file size. Raster layers are also commonly used for continuous data, such as temperature and elevation. Raster layers can be turned into vectors using QGIS, although for the data to be usable, thresholds and cutoffs must be used to narrow data in bins (i.e. elevation 0-10m; 10-20m; 20-30m…). raster layers are commonly shared in .tiff format, and the images contain metadata including georeferenciation (normally, the coordinates of each corner), and the numeric values stored in bands, which were used to generate the colors in the image.
 
 [<<< Previous](../README.md)  | [Next >>>](2setup.md)  
