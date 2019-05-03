@@ -53,7 +53,7 @@ In order to use the Housing data, we have to join it to our working dataset, tha
 * Select the `Joins` tab.
 * Click on the plus sign `+` button to add a new join.
 
-![Adding a Join to an existing layer](images/joins.PNG)
+![Adding a Join to an existing layer](images/Joins.png)
 
 * You will need to identify the join field and target field. This refers to the fields in the joining and the joined datasets that are going to be used as a reference for the join, that is, so that QGIS knows to which elements belong the attributes being added. If an attribute of this join field is not found in the joined table, it will be ignored. You can choose which fields are joined, and I suggest checking the last four so that you do not get duplicate fields. 
 
