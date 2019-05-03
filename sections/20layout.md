@@ -6,7 +6,7 @@ QGIS is most frequently used as a tool of geospatial data analysis, but it can a
 
 * Click on the `New Composer` button. You will see this:
 
-![New Composer Screen](images/composer.PNG)
+![New Composer Screen](images/UpdateLayout.png)
 
 This is what the page you print will look like. Now you can add elements to it to create your printable map. 
 
