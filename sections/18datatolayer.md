@@ -1,3 +1,5 @@
+[<<< Previous](17viz.md)  | [Next >>>](19extra.md)  
+
 # Creating Layers from Datasets
 
 ## Adding a CSV file as a layer
