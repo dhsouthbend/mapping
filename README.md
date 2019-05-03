@@ -32,7 +32,7 @@ This tutorial will guide you through the very basics of GIS mapping concepts. Th
 
 -----
 
-Session leader: Alexis Grant
+Session leader: Alexis Grant            
 Based on previous work by: Javier Otero Peña 
 
 [![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/)
