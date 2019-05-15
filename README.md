@@ -28,7 +28,7 @@ This tutorial will guide you through the very basics of GIS mapping concepts. Th
 [Creating a Layer from Datasets](sections/18datatolayer.md)       
 [Additional Layers and Ideas for Analysis](sections/19extra.md)         
 [Layout: Making a printable and shareable product with QGIS](sections/20layout.md)  
-[More Resources](sections/21more.md)  
+[Conclusion and More Resources](sections/21conclusion.md)  
 
 -----
 
