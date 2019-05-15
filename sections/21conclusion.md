@@ -13,7 +13,7 @@ We covered a lot today! Some of the concepts we learned today are:
 * how to change symbology 
 * how to create a map using layout
 
-## More Resources
+## More Possibilities and Resources
 
 I hope you have enjoyed this brief QGIS exercise and that this has helped you understand a bit better how GIS works and some of the things you can do with these applications. But don’t stop here! 
 
@@ -21,6 +21,8 @@ There are also many more possibilities with GIS. Some additional things that you
 * Creating a new layer from a subset of one by using “filter”
 * Converting vector layers to raster layers
 * Georeferencer: creating new points with map coordinates
+* Geocoding: assign coordinates to points that you have a street address for
+* Spatial analysis
 
 There’s much more to learn and there are plenty of resources online to help you learn more about QGIS. The first stop for you would be the [GIS Practicum](http://guides.newman.baruch.cuny.edu/gis) developed by Frank Donnelly of Baruch College. Also, don’t forget to check out the [Raster Tutorial](https://www.baruch.cuny.edu/confluence/display/geoportal/QGIS+Raster+Tutorial) which will elaborate on alternatives ways of using Digital Elevation Maps and useful plugins. [The GIS Lounge](https://www.gislounge.com/) also has plenty of resources to learn GIS for free.
 
