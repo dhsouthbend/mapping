@@ -44,4 +44,15 @@ Here are some ideas to use this layer:
 - Open the attributes table. You will notice a column called "Category". This refers to the category of hurricanes. If we select categories 1 & 2, we can notice that the selected area resembles the Vulnerable Area of our study, so perhaps our simulated event was in fact equivalent to a Category 2 Hurricane.
 - Note that due to the complexity of this layer, operations such as Clipping will take much longer. Since we are only using this layer for comparative purposes, there is no need to clip it to our study area. We can just turn the layer off once we are done comparing.
 
+## Adding a Basemap
+
+A useful tool for mapping, especially if you are starting from scratch or specific streets are important, is to use a basemap to add context to your points, lines, and polygons in space.
+Let’s learn how to add a basemap. 
+* Click on plugins in the top toolbar and select “manage and install plug-ins”
+* Search for “QuickMap Services” and install
+* On the top toolbar, select the globe that says “quickmap services” when you hover over it with your cursor
+* Choose your basemap—all are fine, but each looks a bit different. For this project, we will use OpenStreetMap (OSM).
+
+As you may notice, there are many basemap options, including those with bike lanes. If you want to keep your basemap, change the opacity of your census layer so that you can see it more clearly.
+
 [<<< Previous](18datatolayer.md)  | [Next >>>](20layout.md)  
