@@ -1,4 +1,4 @@
-[<<< Previous](19extra.md)  | [Next >>>](21more.md)  
+[<<< Previous](19extra.md)  | [Next >>>](21conclusion.md)  
 
 # Layout: Making a printable and shareable product with QGIS
 
@@ -50,4 +50,4 @@ A thematic map is not very useful if we do not know what is being represented. T
 * Once you are satisfied with your layout, you can click on `Print` to have it saved as a PDF or printed on paper.
 
 
-[<<< Previous](19extra.md)  | [Next >>>](21more.md)  
+[<<< Previous](19extra.md)  | [Next >>>](21conclusion.md)  
