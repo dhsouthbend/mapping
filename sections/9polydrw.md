@@ -10,7 +10,9 @@ To draw a Polygon:
 * Right-click to finish drawing.
 * A box will pop-up asking you to write an id. Leave it blank and click `OK`.
 
-Don’t worry if you’re not super-precise; for this exercise we don’t need surgeon precision, we’re just practicing, exploring and learning.
+Don’t worry if you’re not super-precise; for this exercise we don’t need surgeon precision, we’re just practicing, exploring and learning. But if needed, there is a vertex tool to change the polygon vertices. 
+
+When you create a new layer, you have the option to indicate what attributes you would like the layer to have and you can fill it in as you create each point, line, or polygon.
 
 ![Toggling Editing On and Drawing](images/draw1.png)
 
